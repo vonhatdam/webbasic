@@ -1,0 +1,145 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-top: 20px;
+  box-shadow: 0px 0px 2px 3px darkgrey;
+  align-items: center;
+}
+.header .menu a {
+  color: #5a4559;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none; /* bỏ dấu gạch chân*/
+  margin: 0px 10px;
+}
+.header .menu a:hover {
+  color: #1e8bbe;
+}
+.login a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #5a4559;
+  margin: 0px 10px;
+  font-weight: bold;
+}
+.login a:hover {
+  color: #1e8bbe;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2a2d3c;
+  color: aliceblue;
+}
+.footer h3 {
+  color: aliceblue;
+}
+.footer ul li {
+  list-style-type: none; /*bỏ dấu chấm trong ul*/
+  line-height: 30px; /* cách nhau 30px chiều cao*/
+}
+.footer ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+/*banner*/
+.banner {
+  background-color: #e6dddd;
+  display: flex;
+  justify-content: space-around;
+}
+.banner-text {
+  margin-top: 110px;
+}
+.banner-text h4 {
+  color: #292d3b;
+  font-size: 30px;
+  font-style: italic;
+  padding-bottom: 30px;
+}
+.banner-text h2 {
+  color: #292d3b;
+  font-size: 70px;
+  font-style: italic;
+  padding-bottom: 40px;
+}
+.banner-text button {
+  background-color: blue;
+  border: none;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 30px 10px 30px;
+  border-radius: 50px;
+}
+.banner-text button:hover {
+  background-color: red;
+}
+.image {
+  margin-top: 25px;
+}
+/*hot category*/
+.hot {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 150px;
+  /* border: 1px solid black; */
+}
+.hot-category {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 5px 5px;
+}
+.hot-category img {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid black; */
+}
+.hot-text {
+  color: #424559;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.hot-category:hover {
+  opacity: 0.7;
+}
+/*product*/
+.box-product {
+  /* border: 1px solid black; */
+  margin: 15px 10px;
+}
+.list-product {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+}
+.box-product img:hover {
+  transform: scale(1.05);
+}
+.mauchu {
+  color: #292d3b;
+  font-size: 20px;
+}
+.mautien {
+  color: #292d3b;
+  font-size: 20px;
+}
+ul li a:hover {
+  color: #1e8bbe;
+}
+.product h1 {
+  text-align: center;
+}
+.product {
+  width: 1080px;
+  margin: auto auto;
+}
